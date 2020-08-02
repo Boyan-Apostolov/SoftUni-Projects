@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery", "FoodDelivery\FoodDelivery.csproj", "{4F6B1515-1C4C-48CD-B64A-39CBDBBE423B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safari", "Safari\Safari.csproj", "{5E1F3BB2-FC4D-42FC-84CE-519DE9FCC60C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F6B1515-1C4C-48CD-B64A-39CBDBBE423B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6B1515-1C4C-48CD-B64A-39CBDBBE423B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6B1515-1C4C-48CD-B64A-39CBDBBE423B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6B1515-1C4C-48CD-B64A-39CBDBBE423B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1F3BB2-FC4D-42FC-84CE-519DE9FCC60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1F3BB2-FC4D-42FC-84CE-519DE9FCC60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1F3BB2-FC4D-42FC-84CE-519DE9FCC60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1F3BB2-FC4D-42FC-84CE-519DE9FCC60C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97A5AE79-FD77-4364-A6F3-B80B88D4B302}
+	EndGlobalSection
+EndGlobal
