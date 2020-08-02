@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Coctails", "01. Coctails\01. Coctails.csproj", "{EA7C7BD3-9A60-4418-BAE7-579BC4B201CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Seashell Treasure", "02. Seashell Treasure\02. Seashell Treasure.csproj", "{3CD71C1B-9614-46C7-8492-2A2A35988D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA7C7BD3-9A60-4418-BAE7-579BC4B201CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7C7BD3-9A60-4418-BAE7-579BC4B201CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7C7BD3-9A60-4418-BAE7-579BC4B201CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7C7BD3-9A60-4418-BAE7-579BC4B201CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD71C1B-9614-46C7-8492-2A2A35988D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD71C1B-9614-46C7-8492-2A2A35988D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD71C1B-9614-46C7-8492-2A2A35988D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD71C1B-9614-46C7-8492-2A2A35988D31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4927EDA2-E7C0-4E71-96F6-E4892F94FDCB}
+	EndGlobalSection
+EndGlobal
