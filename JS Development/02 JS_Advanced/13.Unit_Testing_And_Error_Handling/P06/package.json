@@ -1,0 +1,16 @@
+{
+  "name": "p06",
+  "version": "1.0.0",
+  "main": "RGBtoHEX.js",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "DEBUG=true nyc mocha ./tests/**/*.js --exit --inspect=0.0.0.0:9229 --timeout 120000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

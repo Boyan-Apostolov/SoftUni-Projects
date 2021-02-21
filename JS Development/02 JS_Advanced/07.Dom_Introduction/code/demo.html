@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+
+<body>
+    <h1 id="title">Hello, DOM!</h1>
+    <ul>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+        
+    </ul>
+    <button class="submit-btn">Click me</button>
+        <input id="username-input" name="username" type="text" />
+        <input id="" name="" type="text" />
+    <script>
+        function start() {
+            let liElements = document.getElementsByTagName('li');
+            for(let el of liElements){
+                console.log(el)
+            }
+        }
+    </script>
+</body>
+
+</html>

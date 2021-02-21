@@ -1,0 +1,1 @@
+document.querySelector('ul').addEventListener('click',(ev)=>{})
