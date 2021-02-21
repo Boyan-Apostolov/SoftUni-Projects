@@ -1,2 +1,2 @@
 # SoftUni-Projects
-Repository with my C# SoftUni Projects
+Repository with my SoftUni Projects
