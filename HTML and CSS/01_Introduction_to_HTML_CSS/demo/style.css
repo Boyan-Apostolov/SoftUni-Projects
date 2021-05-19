@@ -1,0 +1,40 @@
+#my-heading {
+  background-color: aquamarine;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.btn {
+  background-color: orange;
+  color: white;
+  border-radius: 12px;
+  padding: 6px 12px;
+  border: none;
+  text-transform: capitalize;
+}
+button.btn {
+  background-color: red;
+}
+
+.btn:hover{
+    background:pink;
+    cursor: pointer;
+}
+
+p{
+    border: 1px solid black;
+    padding: 100px;
+    height: 400px;
+    /* background: url(https://image.cnbcfm.com/api/v1/image/105992231-1561667465295gettyimages-521697453.jpeg?v=1561667497&w=1600&h=900); */
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 60px;
+}
+
+ul{
+    list-style:decimal-leading-zero;
+}
