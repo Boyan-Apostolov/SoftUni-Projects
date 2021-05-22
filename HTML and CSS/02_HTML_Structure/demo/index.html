@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML Structure</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Начало</a></li>
+                <li><a href="#">Обучения</a></li>
+                <li><a href="#">Учебен план</a></li>
+                <li><a href="#">Галерия</a></li>
+                <li><a href="#">Контакти</a></li>
+                <li><a href="#">Преподаватели</a></li>
+                <li><a href="#">Сертификати</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="John Smith" required autofocus />
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password" required />
+
+            Age
+            <input type="number" min="18" max="99" placeholder="Age..." required />
+
+            Email
+            <input type="email" placeholder="Email..." />
+
+            <input type="checkbox" />
+
+            <input type="radio" />
+
+            <select name="colors" id="colors">
+                <option value="red">red</option>
+                <option value="black">black</option>
+                <option value="green">green</option>
+            </select>
+
+            <input type="range" />
+
+            <input type="reset" />
+
+            <input type="file" />
+
+            <input type="submit" />
+        </form>
+
+        <br />
+        <form>
+            <fieldset>
+                <legend>Write your name here</legend>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </fieldset>
+        </form>
+
+        <br />
+        <textarea name="message" rows="5"></textarea>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bobby</td>
+                    <td>17</td>
+                    <td>Veliko Tarnovo</td>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>27</td>
+                    <td>Sofia</td>
+                </tr>
+                <tr>
+                    <td>Toni</td>
+                    <td>22</td>
+                    <td>Pleven</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Average: 55</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <section>
+            <h2>Contacts tab</h2>
+            <p>We work from <time>10:00</time></p>
+            <address>
+                <a href="mailto:bobi@abv.bg">send me an email</a>
+            </address>
+        </section>
+
+        <figure>
+            <img src="https://softuni.bg/Content/images/home-page/seo-image-first.png" alt="">
+            <figcaption>
+                Some people chilling in a room
+            </figcaption>
+        </figure>
+
+        <details>
+            <summary>
+                Details tab
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus.</p>
+        </details>
+
+        <section class="what-is-programming">
+            <article class="what-is-programming-text">
+                <h2>Why to learn programming?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla aut laboriosam ab ipsa
+                    necessitatibus beatae excepturi iure? Perferendis a nesciunt aspernatur numquam, hic magni harum
+                    natus cum nostrum. Est id reiciendis aperiam debitis illo laborum inventore ut officia. Odio quos
+                    molestias aliquid culpa officiis. Impedit provident sunt vel <a href="#">consequuntur</a>?</p>
+
+                <h2>Programming</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda voluptatibus harum
+                    impedit beatae modi placeat tempora. Autem, cupiditate natus.</p>
+            </article>
+            <article class="what-is-programming-images">
+                <img src="https://softuni.bg/Content/images/home-page/seo-image-first.png" alt="">
+                <img src="https://softuni.bg/Content/images/home-page/seo-image-second.png" alt="">
+                <img src="https://softuni.bg/Content/images/home-page/seo-image-third.png" alt="">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        ...Footer tag here...
+    </footer>
+</body>
+
+</html>
