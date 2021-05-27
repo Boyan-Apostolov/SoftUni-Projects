@@ -1,0 +1,19 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+p{
+    display: inline-block;
+    padding:10px;
+    border-radius: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.click {
+  background-color: #008000;
+}
+
+.email {
+  background-color: #ff8c00;
+}
