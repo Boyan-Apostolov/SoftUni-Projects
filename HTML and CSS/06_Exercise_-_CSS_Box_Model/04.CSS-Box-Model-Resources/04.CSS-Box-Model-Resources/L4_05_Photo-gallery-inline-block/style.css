@@ -1,0 +1,16 @@
+body {
+  background-color: #eeeeee;
+}
+
+li {
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 0.4rem solid black;
+  width: 25%;
+}
+
+img{
+    width: 100%;
+}
