@@ -1,0 +1,45 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body {
+  margin: 0;
+}
+
+.card {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.river-div {
+  background: linear-gradient(
+    90deg,
+    rgba(25, 92, 157, 1) 0%,
+    rgba(66, 203, 161, 1) 100%
+  );
+}
+.mountain-div {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 51, 119, 1) 0%,
+    rgba(210, 129, 20, 1) 100%
+  );
+}
+
+.viewport {
+  position: relative;
+  height: 50vh;
+}
+
+img {
+  width: 190px;
+}
+
+.fas {
+  color: white;
+  position: relative;
+  left: 188px;
+  bottom: 8px;
+  font-size: 13px;
+}

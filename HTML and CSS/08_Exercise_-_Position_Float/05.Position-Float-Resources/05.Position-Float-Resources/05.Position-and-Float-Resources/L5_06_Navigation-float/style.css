@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+blockquote,
+h1 {
+  line-height: 1em;
+  line-height: 1.2;
+  font-family: Georgia, serif;
+}
+.site-title {
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  width: 60%;
+  font-size: 35px;
+}
+body > header {
+  border-bottom: 2px solid black;
+}
+
+body {
+  width: 75%;
+  margin: 20px auto;
+  background-color: rgb(238, 238, 238);
+}
+
+.quote {
+  position: relative;
+  float: right;
+  width: 50%;
+  margin: 20px;
+  color: #444444;
+  border-left: 5px solid #dedede;
+  padding-left: 20px;
+}
+
+blockquote {
+  float: right;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 3px solid black;
+  position: relative;
+  width: 225px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+.first-pic {
+  float: right;
+}
+.second-pic {
+  float: left;
+  margin: 10px;
+  margin-top: 0;
+}
+
+main {
+  width: 75%;
+  display: inline-block;
+}
+aside {
+  margin-left: 75px;
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+header nav {
+  width: 40%;
+  float: right;
+  position: relative;
+  top: 30px;
+  left: 90px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}

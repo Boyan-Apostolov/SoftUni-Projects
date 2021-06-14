@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.card {
+  max-width: 40%;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  box-shadow: 17px 21px 82px -1px rgba(0, 0, 0, 0.62);
+}
+
+div {
+  width: 100%;
+}
+.img-div {
+  height: 200px;
+}
+
+.info-div {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  padding: 120px 30px;
+}
+.info-div h3 {
+  margin: 0;
+  font-size: 25px;
+}
+.info-div p {
+  font-size: 20px;
+}
+
+button {
+  background-color: rgb(0, 153, 0);
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  padding: 10px 20px;
+
+  float: right;
+}
+h3 {
+  font-family: Geogria, serif;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  bottom: 200px;
+}
