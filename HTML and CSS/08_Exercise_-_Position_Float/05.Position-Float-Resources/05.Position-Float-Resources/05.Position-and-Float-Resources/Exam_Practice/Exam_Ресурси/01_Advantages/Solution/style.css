@@ -1,0 +1,63 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: Lato, sans-serif;
+}
+.benefits-title {
+  background-color: #00acff;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.benefits {
+  max-width: 80%;
+  margin: 60px auto;
+}
+
+.benefits-list-item {
+  background-color: #f4f5f7;
+  list-style-type: none;
+  margin: 1px 0;
+  padding: 10px;
+}
+
+.benefits-list-item-text {
+  width: 95%;
+  display: inline-block;
+  text-align: left;
+}
+
+.benefits-list {
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-list-item:first-child {
+  border-top-left-radius: 8px;
+}
+
+.benefits-list-item:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.fa-check-circle {
+  color: #00c351;
+  font-size: 23px;
+}
+
+.benefits-title {
+  padding: 10px;
+  width: fit-content;
+  margin: 0;
+  float: right;
+}
+
+.benefits-list-item:nth-child(2),
+.benefits-list-item:nth-child(7),
+.benefits-list-item:nth-child(8),
+.benefits-list-item:nth-child(3) {
+  margin: 0;
+}
