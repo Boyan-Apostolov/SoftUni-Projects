@@ -1,0 +1,46 @@
+body {
+  background: rgb(238, 238, 238);
+  margin: 10px 100px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  background: white;
+  border-radius: 6px;
+  margin: 10px;
+  box-shadow: 0px 0px 26px 3px rgba(0, 0, 0, 0.41);
+}
+
+img {
+  width: 100%;
+}
+
+.card-description,
+.card-title,
+.more-info {
+  padding: 10px;
+  margin: 0;
+}
+
+.card-description {
+  margin-bottom: 5px;
+}
+.more-info {
+  border-top: 2px solid grey;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+}
+
+.flex article {
+  flex-basis: 30%;
+  flex-grow: 1;
+}

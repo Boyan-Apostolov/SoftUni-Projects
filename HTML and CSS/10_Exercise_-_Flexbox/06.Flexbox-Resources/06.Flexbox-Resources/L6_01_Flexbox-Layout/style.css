@@ -1,0 +1,36 @@
+body {
+  background-color: #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Helvetica, sans-serif;
+}
+header,
+footer {
+  flex-basis: 100%;
+}
+header {
+  height: 70px;
+}
+footer {
+  height: 60px;
+}
+main {
+  flex-grow: 3;
+  height: 200px;
+}
+
+aside {
+  flex-grow: 1;
+}
+
+header,
+footer,
+main,
+aside {
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 2px #707070;
+}

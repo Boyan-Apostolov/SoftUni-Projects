@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+div,
+section {
+  display: flex;
+  justify-content: center;
+
+  align-items: flex-start; /* may fail */
+}
+
+div {
+  max-width: 65vw;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin: 50px auto;
+}
+span {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.week {
+  flex-wrap: wrap;
+}
+
+.notes {
+  flex-direction: column;
+  height: 100%;
+}
+
+.workweek-span {
+  flex-basis: 100%;
+}
+
+.weekend-span {
+  flex-basis: 100%;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday,
+.sunday {
+  height: 80px;
+  flex-grow: 1;
+}
+
+.workweek-span,
+.weekend-span {
+  height: 80px;
+}
+
+.reminders,
+.special-dates {
+  height: 160px;
+}

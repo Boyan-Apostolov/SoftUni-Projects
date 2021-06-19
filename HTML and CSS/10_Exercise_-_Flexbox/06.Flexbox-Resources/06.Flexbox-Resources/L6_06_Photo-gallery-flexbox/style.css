@@ -1,0 +1,29 @@
+body {
+  background-color: #eeeeee;
+}
+
+body,
+ul,
+li {
+  display: flex;
+}
+
+.gallery ul {
+  flex-wrap: wrap;
+}
+img {
+  object-fit: cover;
+}
+ul {
+  justify-content: space-between;
+  align-items: stretch;
+}
+li {
+  background-color: white;
+  padding: 10px;
+  border: 7px solid black;
+  align-items: center;
+  margin: 10px;
+  box-shadow: inset 0px 0px 36px 1px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 36px 1px rgba(0, 0, 0, 0.41);
+}
