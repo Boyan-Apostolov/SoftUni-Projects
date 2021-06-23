@@ -1,0 +1,26 @@
+@import url("./media-queries.css") print;
+
+section {
+  width: 30%;
+  border: 1px solid black;
+  padding: 3%;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1025px) {
+  main {
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
