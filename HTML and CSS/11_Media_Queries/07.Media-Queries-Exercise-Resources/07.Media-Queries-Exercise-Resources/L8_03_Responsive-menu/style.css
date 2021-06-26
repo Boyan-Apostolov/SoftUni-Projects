@@ -1,0 +1,124 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body {
+  background: #ebebeb;
+  margin: 10px 50px;
+  font-family: Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  border-bottom: 2px solid #2d2d2d;
+  top: 120px;
+}
+
+header h1 {
+  font-size: 50px;
+  padding-left: 20px;
+}
+header nav ul li {
+  list-style: none;
+  background-color: #2d2d2d;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul {
+  display: flex;
+  border-radius: 6px;
+  padding: 3px;
+  background-color: #fff;
+}
+
+.menu-p {
+  display: none;
+}
+
+@media all and (min-width: 700px) and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    align-self: baseline;
+    padding-left: 112px;
+  }
+
+  .menu-p {
+    display: block;
+  }
+
+  header::after {
+    display: none;
+  }
+
+  nav ul {
+    width: 400px;
+    flex-direction: column;
+  }
+
+  nav::before {
+    content: "";
+    width: 400px;
+    position: absolute;
+    border-bottom: 2px solid #2d2d2d;
+    top: 180px;
+  }
+  nav::after {
+    content: "";
+    width: 400px;
+    position: absolute;
+    border-bottom: 2px solid #2d2d2d;
+    top: 400px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  header h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .menu-p {
+    display: block;
+  }
+
+  header::after {
+    display: none;
+  }
+
+  nav ul {
+    width: 280px;
+    flex-direction: column;
+  }
+
+  nav::before {
+    content: "";
+    width: 285px;
+    position: absolute;
+    border-bottom: 2px solid #2d2d2d;
+    top: 190px;
+  }
+  nav::after {
+    content: "";
+    width: 285px;
+    position: absolute;
+    border-bottom: 2px solid #2d2d2d;
+    top: 390px;
+  }
+}

@@ -1,0 +1,40 @@
+@media all and (max-width: 500px) {
+  .page {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .first-img {
+    float: right;
+  }
+  .second-img {
+    float: left;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .page {
+    font-size: 14px;
+  }
+}
+@media all and (min-width: 600px) {
+  .page {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 800px) {
+  .page {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 1300px) {
+  .page {
+    font-size: 21px;
+  }
+}
+@media all and (min-width: 1800px) {
+  .page {
+    font-size: 23px;
+  }
+}

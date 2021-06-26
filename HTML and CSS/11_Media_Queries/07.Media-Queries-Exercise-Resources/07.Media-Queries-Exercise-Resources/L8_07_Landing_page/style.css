@@ -1,0 +1,173 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  padding-bottom: 10px;
+}
+
+.site-title {
+  color: #800080;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+.title-descr {
+  margin-top: 0;
+  color: #524f48;
+  font-size: 8px;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 7px;
+}
+nav ul li a {
+  color: #524f48;
+  text-decoration: none;
+}
+
+.need-a-website {
+  justify-content: center;
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+}
+
+.need-a-website-content {
+  flex-basis: 60%;
+}
+
+.need-a-website-img {
+  flex-basis: 20%;
+}
+
+img {
+  width: 100%;
+}
+.cta {
+  text-decoration: none;
+  width: fit-content;
+  padding: 5px 15px;
+  color: #524f48;
+  border-radius: 3px;
+  border: 2px solid #524f48;
+}
+
+.our-team {
+  padding: 50px 90px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.team-heading {
+  font-weight: bold;
+  text-align: center;
+}
+.team-heading::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #524f48;
+  width: 80px;
+  top: 110px;
+  left: 455px;
+}
+
+.memebers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.profile-pic {
+  width: 140px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.91);
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 30%;
+}
+.name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.quote {
+  margin-top: 0;
+  font-style: italic;
+}
+.sign-up {
+  display: flex;
+  background-color: #68347b;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.sign-up-prompt:after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #6b6e5b;
+  width: 80px;
+  top: 1298px;
+  left: 370px;
+}
+
+.more-ppl {
+  background-image: linear-gradient(
+    123deg,
+    #ffffff 25%,
+    #f5f2fa 25%,
+    #f5f2fa 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #f5f2fa 75%,
+    #f5f2fa 100%
+  );
+}
+
+.testimoinials {
+  font-weight: bold;
+  text-align: center;
+}
+.testimoinials::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #524f48;
+  width: 80px;
+  top: 1408px;
+  left: 380px;
+}
+.people-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.more-ppl {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.91);
+  margin-top: 0;
+  padding: 20px 70px;
+}
+
+footer {
+  padding: 20px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer article {
+  flex-basis: 20%;
+}
+
+footer article ul {
+  list-style-type: none;
+}
+.half-list {
+  padding-top: 50px;
+}
