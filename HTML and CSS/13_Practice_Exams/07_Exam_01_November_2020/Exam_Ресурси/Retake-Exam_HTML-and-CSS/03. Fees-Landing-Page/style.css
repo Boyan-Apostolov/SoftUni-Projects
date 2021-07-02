@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+header nav .img-holder {
+  width: 150px;
+}
+header nav .img-holder img {
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li a {
+  color: #54546d;
+  font-weight: bold;
+  margin: 20px;
+  text-decoration: none;
+}
+h1 {
+  font-size: 37px;
+  padding-top: 29px;
+  margin-bottom: 0px;
+}
+.taxes {
+  background: #54546d;
+  color: white;
+  text-align: center;
+  padding: 30px 100px;
+}
+.programs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.design-basics {
+  color: #54546d;
+  background: white;
+  box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
+  border-radius: 6px;
+}
+.design-basics h2 {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.apply-btn {
+  background: #9a5dc6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  margin: 50px;
+  box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
+  font-weight: bold;
+}
+.design-basics p {
+  margin-bottom: 50px;
+}
+.design-basics .price {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-top: 104px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 156, 63, 1) 0%,
+    rgba(72, 212, 126, 1) 56%
+  );
+  padding: 19px;
+  height: 155px;
+}
+.design-basics .price p {
+  margin-bottom: 10px;
+}
+
+.fundamentals {
+  text-align: center;
+  color: #54546d;
+  background: white;
+  box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
+  border-radius: 6px;
+}
+.fundamentals h2 {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.fundamentals p {
+  margin-bottom: 50px;
+}
+.fundamentals .price p {
+  margin-bottom: 10px;
+}
+.cource-more-inf {
+  width: 60%;
+  margin: 10px auto;
+  margin-bottom: 10px !important;
+}
+.fundamentals .price {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: relative;
+  color: white;
+  margin-top: 86px;
+  background: linear-gradient(
+    90deg,
+    rgba(76, 108, 137, 1) 0%,
+    rgba(97, 153, 205, 1) 69%
+  );
+  padding: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.fundamentals .price .first::after {
+  content: "";
+  height: 80px;
+  display: inline-block;
+  border-right: 3px solid white;
+  position: absolute;
+  top: 50px;
+  right: 50%;
+}
+
+.professional {
+  text-align: center;
+  color: #54546d;
+  background: white;
+  box-shadow: 6px 7px 26px -4px rgba(46, 34, 34, 0.94);
+  border-radius: 6px;
+}
+.professional h2 {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.professional p {
+  margin-bottom: 50px;
+}
+.professional .price p {
+  margin-bottom: 10px;
+}
+.cource-more-inf {
+  width: 60%;
+  margin: 10px auto;
+  margin-bottom: 10px !important;
+}
+.professional .price {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: relative;
+  margin-top: 68px !important;
+  color: white;
+  background: linear-gradient(90deg, #4c39a7 0%, #8b7ce0 69%);
+  padding: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.professional .price .first::after {
+  content: "";
+  height: 80px;
+  display: inline-block;
+  border-right: 3px solid white;
+  position: absolute;
+  top: 50px;
+  right: 50%;
+}
+
+.programs article {
+  flex-basis: 30%;
+  padding-top: 20px;
+}
+.programs {
+  position: relative;
+  top: 100px;
+}
+.price {
+  max-height: 120px;
+}
+
+.taxes::after {
+  background: url(./images/calculator-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  width: 176px;
+  height: 222px;
+  position: absolute;
+  display: inline-block;
+  top: 230px;
+  left: -35px;
+}
+
+.type-education {
+  margin-top: 200px;
+  padding: 0px 150px;
+}
+.type-education h2 {
+  color: gray;
+}
+.type-education > p {
+  font-size: 20px;
+}
+.type-education ul {
+  width: 100%;
+  padding: 0px;
+  margin-top: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.type-education ul li {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.type-education ul li p {
+  flex-basis: 60%;
+}
+
+.type-education ul li img {
+  margin-right: 400px;
+}
+.type-education ul li:first-child {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.type-education ul li:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.type-education ul li:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+.type-education ul li:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.financing {
+  margin: 50px auto;
+  width: 90%;
+}
+.financing h2 {
+  color: gray;
+}
+.financing p {
+  font-size: 20px;
+}
+
+.financing p:nth-child(2) {
+  margin-bottom: 0px;
+}
+.financing p:last-child {
+  margin-top: 0px;
+}
+.financing-info {
+  display: flex;
+}
+.info {
+  margin-right: 100px;
+}
+footer {
+  background-color: #54546d;
+  color: lightgray;
+  text-align: center;
+  padding: 10px;
+}

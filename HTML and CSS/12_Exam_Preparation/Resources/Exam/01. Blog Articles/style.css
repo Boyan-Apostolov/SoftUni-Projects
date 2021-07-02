@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100vh;
+  background: #66b9f8;
+  padding: 50px;
+}
+
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.blogs {
+  display: flex;
+}
+.blog {
+  background-color: white;
+  margin: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.91);
+}
+.img-holder img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.blog h2 {
+  color: #ff9a16;
+}
+.calendar,
+.time {
+  color: gray;
+  display: inline-block;
+}
+.blog-text {
+  padding: 30px;
+}
+read-more {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff9a16;
+}
+
+.all {
+  color: white;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 20px;
+  float: right;
+  background: transparent;
+  border: 1px solid white;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 30px;
+}

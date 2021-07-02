@@ -1,0 +1,51 @@
+h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+p,
+a {
+  font-family: helvetica;
+  color: gray;
+  font-size: 20px;
+}
+main {
+  padding: 20px 100px;
+  width: 70%;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+}
+.button-holder {
+  flex-basis: 70%;
+}
+.button-holder {
+  margin-right: 100px;
+}
+.green {
+  background-color: #cefde9;
+}
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 50px;
+  background-color: #03a87c;
+  position: relative;
+  top: 120px;
+}
+.site {
+  padding-bottom: 50px;
+}
+.site::after {
+  content: "";
+  width: 30%;
+  display: block;
+  align-self: center;
+  border-bottom: 1px solid gray;
+  position: relative;
+  right: -220px;
+  top: 50px;
+}

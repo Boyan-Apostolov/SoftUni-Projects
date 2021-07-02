@@ -1,0 +1,167 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Noto Sans JP";
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  background: #f93700;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  margin-right: 10px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+.search-section {
+  display: flex;
+}
+.search-btn {
+  color: #ffff;
+  background: #b6afaf;
+  padding: 5px 20px;
+}
+
+main {
+  padding-top: 10px;
+}
+
+img {
+  width: 90%;
+  object-fit: cover;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+.img-card {
+  display: flex;
+  flex-basis: 25%;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.img-desc {
+  color: grey;
+}
+
+.new-collection {
+  padding-left: 50px;
+  display: flex;
+}
+.collection-info {
+  margin-right: 80px;
+  flex-basis: 30%;
+}
+.img-holder {
+  flex-basis: 70%;
+}
+.img-holder img {
+  margin-left: 22px;
+}
+
+.collection-info h2 {
+  color: #f93700;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.collection-info p {
+  color: grey;
+}
+
+.shop-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #f93700;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.benefits {
+  padding: 20px 70px;
+  margin: 10px 50px;
+  display: flex;
+  background-color: #cac3c3;
+  justify-content: space-between;
+  align-items: center;
+}
+.benefit-card {
+  margin-right: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.benefit-card i {
+  color: #757575;
+  font-size: 65px;
+}
+.benefit-card h3 {
+  margin-bottom: 0;
+}
+.benefit-card p {
+  color: grey;
+}
+.icon-holder {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+.fa-phone-alt {
+  border: 3px solid #757575;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 35px !important;
+}
+
+.footer-nav {
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+}
+.footer-nav ul li {
+  margin: 6px;
+  color: #757575;
+}
+
+.About-us {
+  font-weight: bold;
+}
+
+.Contact-us {
+  font-weight: bold;
+}
+
+.btn {
+  color: black;
+  background: #cac3c3;
+  text-decoration: none;
+  padding: 5px 40px;
+}
+.footer-nav i {
+  font-size: 30px;
+}

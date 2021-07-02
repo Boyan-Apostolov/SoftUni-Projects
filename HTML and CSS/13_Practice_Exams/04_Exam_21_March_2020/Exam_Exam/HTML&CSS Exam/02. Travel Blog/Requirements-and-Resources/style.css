@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+html {
+  font-family: "Gelasio";
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header nav {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+}
+.img-holder {
+  width: 70px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #5a6063;
+  margin: 10px;
+}
+header {
+  background: url("./images/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  padding: 10px 30px;
+  font-size: 30px;
+}
+
+.subheading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subheading h1 {
+  color: white;
+  text-shadow: 2px 2px #000000;
+  font-size: 70px;
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+.start-btn {
+  text-decoration: none;
+  width: fit-content;
+  margin: 10px auto;
+  color: white;
+  background: #146594;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 35px;
+}
+
+main {
+  padding: 20px 100px;
+}
+
+main > h2 {
+  color: #5a6063;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.topics-holder {
+  display: flex;
+}
+.first-topic-holder {
+  flex-basis: 45%;
+  position: relative;
+  text-align: center;
+}
+
+.first-topic-holder h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  width: fit-content;
+  margin: 160px 161px;
+  text-shadow: 2px 2px #000000;
+}
+.second-topic-holder {
+  display: flex;
+  flex-basis: 51%;
+  flex-direction: column;
+}
+
+.topics-holder h2 {
+  position: absolute;
+}
+
+.first-pic h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  width: fit-content;
+  margin: 22px 60px;
+  text-shadow: 2px 2px #000000;
+}
+.second-pic {
+  position: relative;
+  top: -6px;
+}
+.second-pic h2 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  width: fit-content;
+  margin: 22px 200px;
+  top: 582px;
+  left: -105px;
+  text-shadow: 2px 2px #000000;
+}
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #8c8c8c;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  padding: 40px 50px;
+}
+
+footer ul li a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+}
+.list-1 li:nth-child(1),
+.list-1 li:nth-child(2),
+.list-1 li:nth-child(3) {
+  border-right: 1px solid white;
+}
+.list-2 li:nth-child(1),
+.list-2 li:nth-child(2),
+.list-2 li:nth-child(3) {
+  border-right: 1px solid white;
+}
+.list-3 li:nth-child(1),
+.list-3 li:nth-child(2) {
+  border-right: 1px solid white;
+}

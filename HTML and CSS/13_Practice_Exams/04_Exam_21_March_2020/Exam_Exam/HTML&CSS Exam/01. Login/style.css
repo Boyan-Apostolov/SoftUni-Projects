@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+html {
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(69, 69, 71, 0.52),
+      rgba(32, 29, 31, 0.73)
+    ),
+    url("./image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  text-align: center;
+  width: fit-content;
+  margin: 400px auto;
+}
+.content h1 {
+  font-weight: 400;
+  color: #fff;
+  padding-left: 40px;
+}
+
+form {
+  background: white;
+  border-radius: 6px;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  width: 130%;
+}
+
+input {
+  width: 100%;
+  padding-left: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-weight: bold;
+}
+
+i {
+  position: relative;
+  top: 36px;
+  left: -136px;
+  font-size: 25px;
+}
+
+.btn {
+  background: #d41872;
+  width: 61%;
+  text-align: center;
+  border-radius: 31px;
+  margin-top: 16px;
+  color: white;
+  font-weight: bold;
+  padding-left: 0;
+}

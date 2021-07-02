@@ -1,0 +1,43 @@
+@media all and (max-width: 600px) {
+  .banner h2 {
+    width: 90%;
+  }
+  .banner {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  header.major {
+    margin-bottom: unset;
+  }
+
+  .wrapper > .inner {
+    width: unset;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    width: 95%;
+  }
+  .wrapper > .inner.narrow {
+    width: unset;
+  }
+  .grid-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-form .form-control.narrow {
+    width: 95%;
+  }
+  .grid-form .form-control {
+    width: 100%;
+  }
+  .actions li input {
+    width: 95%;
+  }
+  .footer {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+}

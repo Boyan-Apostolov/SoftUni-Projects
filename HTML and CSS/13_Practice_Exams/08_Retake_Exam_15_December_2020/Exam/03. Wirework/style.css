@@ -1,0 +1,165 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+html {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 10px 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-first {
+  display: flex;
+  align-items: center;
+}
+.header-first h1 {
+  font-size: 30px;
+  margin-right: 30px;
+  position: relative;
+}
+.header-first h1::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  border-right: 3px solid gray;
+  right: -15px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  background: #ececec;
+  padding: 20px;
+  margin: 5px;
+}
+.active-tab {
+  color: white;
+  background: #e24e2a;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 84vh;
+}
+.banner-img-holder {
+  height: 84vh;
+}
+.briefing {
+  text-align: center;
+  padding: 30px 350px;
+  background-color: #e24e2a;
+  color: #f3bbae;
+  line-height: 28px;
+}
+.name {
+  font-weight: bold;
+}
+.brand {
+  text-decoration: underline;
+  color: white;
+}
+.benefits {
+  display: flex;
+  padding: 50px;
+  background-color: #383838;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-right: 80px;
+}
+.card h2 {
+  color: white;
+  font-weight: 300;
+}
+.card i {
+  font-size: 75px;
+  color: white;
+}
+
+.icon-holder {
+  margin-bottom: 10px;
+  background-color: #e24e2a;
+  width: fit-content;
+  padding: 20px;
+}
+.benefit-description {
+  line-height: 20px;
+  color: #63625b;
+}
+.benefits .benefit-description::before {
+  content: "";
+
+  width: 100%;
+  display: inline-block;
+  border-top: 1px solid #63625b;
+  position: relative;
+  top: -20px;
+}
+.sign-up {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-up h2 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.sign-up p {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #63625b;
+}
+.sign-up a {
+  border-radius: 3px;
+  color: white;
+  background: #1b9772;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  padding: 50px;
+  background-color: #383838;
+}
+
+footer {
+  background-color: #1b9772;
+  text-align: center;
+  color: #49ab8c;
+  padding: 50px 150px;
+  letter-spacing: 3px;
+}
+
+.bold {
+  font-weight: 500;
+  color: white;
+}

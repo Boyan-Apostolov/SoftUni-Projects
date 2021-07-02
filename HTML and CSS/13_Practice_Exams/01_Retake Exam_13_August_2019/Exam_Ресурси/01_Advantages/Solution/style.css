@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+html {
+  font-family: "Lato";
+}
+
+.advantages {
+  width: 80%;
+  margin: 60px auto;
+  position: relative;
+}
+
+ul {
+  border-radius: 6px;
+}
+li {
+  background-color: #f4f5f7;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1px;
+}
+
+li:nth-child(2),
+li:nth-child(3),
+li:nth-child(6),
+li:nth-child(7) {
+  margin: 0;
+}
+
+li:first-child {
+  border-top-left-radius: 5px;
+}
+li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.blue-icon {
+  color: white;
+  background: #42abf8;
+  position: absolute;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -62px;
+  right: 1px;
+}
+
+i {
+  color: green;
+  right: 23px;
+  position: relative;
+}

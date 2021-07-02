@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+html {
+  font-family: Lato;
+}
+
+h1 {
+  font-family: Montserrat;
+}
+
+main {
+  display: flex;
+  padding: 30px 100px;
+  align-items: stretch;
+}
+
+.blue,
+.hollow {
+  flex-basis: 50%;
+}
+
+.blue {
+  background-color: #e3f3fd;
+  border-radius: 5px;
+  padding: 30;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.91);
+}
+.blue h1 {
+  padding-left: 35px;
+  color: #536171;
+}
+.blue p {
+  display: inline-block;
+}
+i {
+  color: #8ccbfa;
+  margin-right: 10px;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  color: #536171;
+}
+.hollow {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 5px solid #4bacf8;
+  margin-left: 60px;
+  align-items: center;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.91);
+}
+
+.info {
+  color: #536171;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.hollow span {
+  color: #4bacf8;
+  font-weight: bold;
+  font-size: 60px;
+}
+.start-learning {
+  font-weight: bold;
+  font-size: 20px;
+  color: #536171;
+}
+.btn {
+  font-weight: bold;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.91);
+  background: #4bacf8;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}

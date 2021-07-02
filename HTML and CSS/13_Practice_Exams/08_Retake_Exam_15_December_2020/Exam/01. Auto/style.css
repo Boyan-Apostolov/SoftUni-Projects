@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Poppins;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+}
+.ad {
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+}
+.text {
+  flex-basis: 58%;
+  margin-right: 20px;
+}
+img {
+  width: 100%;
+}
+.img-holder {
+  flex-basis: 40%;
+}
+.benefits {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+}
+.benefit {
+  display: flex;
+  align-items: center;
+}
+.benefit h2 {
+  margin-bottom: 0px;
+}
+.benefit p {
+  margin-top: 0px;
+}
+.benefit-img-holder {
+  flex-basis: 7%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.benefits {
+  flex-basis: 30%;
+}

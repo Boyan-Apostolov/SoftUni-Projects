@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+html {
+  box-sizing: border-box;
+  font-family: Gelasio;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Media/background.jpg");
+}
+header {
+  padding: 0px 100px; /* fffffffffff */
+  display: flex;
+  justify-content: space-between;
+  background: #e6e3de;
+  align-items: center;
+}
+header h1 {
+  color: #554938;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+header nav ul li a {
+  color: #554938;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+header section {
+  display: flex;
+  align-items: center;
+}
+.button {
+  color: #fff;
+  background: #554938;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+header .fa-search {
+  color: #554938;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-section {
+  padding: 200px 50px 200px 50px;
+  display: flex;
+  background-image: url("./Media/craving.jpg");
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section h2 {
+  font-size: 40px;
+}
+
+.search-section i {
+  position: relative;
+  top: -27px;
+  left: -117px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.search-section input {
+  padding-left: 50px;
+  font-size: 20px;
+  height: 40px;
+  width: 280px;
+  background: white;
+  opacity: 0.5;
+  border: none;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+.coctails {
+  margin-top: 60px;
+  padding: 0px 100px;
+  display: flex;
+}
+.coctails .img-holder {
+  flex-basis: 60%;
+}
+.coctail-description {
+  text-align: center;
+  padding: 35px;
+  display: flex;
+  background: white;
+  flex-basis: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.coctail-description h2 {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.coctail-description p {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.tutorials {
+  margin-top: 60px;
+  padding: 0px 100px;
+  display: flex;
+}
+.tutorials .img-holder {
+  flex-basis: 60%;
+}
+.tutorial-description {
+  text-align: center;
+  padding: 35px;
+  display: flex;
+  background: white;
+  flex-basis: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.tutorial-description h2 {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.tutorial-description p {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.cookie-button {
+  align-self: center;
+  background: white;
+  opacity: 0.5;
+  margin-top: 60px;
+  color: #554938;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.items {
+  display: flex;
+  padding: 0px 100px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 20%;
+  margin: 20px;
+}
+.card {
+  font-style: italic;
+  background: white;
+  width: 100%;
+  text-align: center;
+}
+.shop-button {
+  align-self: center;
+  background: #db4d35;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 12px 100px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  background-color: white;
+  opacity: 0.8;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+footer ul li:nth-child(1),
+footer ul li:nth-child(2),
+footer ul li:nth-child(3) {
+  border-right: 1px solid black;
+}

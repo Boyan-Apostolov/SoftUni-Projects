@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+html {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0px 50px;
+  background-color: #ffffff;
+  box-shadow: 2px 6px 19px -3px #000000;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  padding: 10px 35px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-holder {
+  width: 150px;
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+}
+.navigation li a {
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #445161;
+}
+.profile-pic {
+  color: white !important;
+  background: #45a9f7;
+  padding: 12px;
+  border-radius: 50%;
+}
+.active {
+  position: relative;
+  top: -6px;
+}
+.active::before {
+  border-top: 5px solid #45a9f7;
+  width: 100%;
+  content: "";
+  display: block;
+  position: relative;
+  top: -20px;
+}
+.certificates {
+  padding: 30px 150px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255),
+      rgba(255, 255, 255, 0.671)
+    ),
+    url("./images/hero-certificates.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.certificates-boxes {
+  display: flex;
+  margin-bottom: 30px;
+}
+.web-development-certificates {
+  flex-basis: 60%;
+  background: #29384b;
+  border-radius: 6px;
+  padding: 20px 30px;
+  color: white;
+  margin-right: 40px;
+}
+.web-development-certificates h2 {
+  font-weight: 500;
+}
+.certificates-images {
+  flex-basis: 40%;
+  display: flex;
+  align-items: flex-end;
+}
+.info {
+  font-style: italic;
+}
+
+.diploma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 100px; /* UNIVERSAL PADDING FOR PAGE */
+  margin-bottom: 50px;
+}
+.diploma h2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+.diploma-info {
+  background: #f4f5f7;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+.diploma-aftertext {
+  align-self: flex-start;
+}
+.program {
+  margin: 50px 100px; /* UNIVERSAL MARGIN FOR PAGE */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  background-image: linear-gradient(
+      rgba(129, 129, 129, 0.76),
+      rgba(97, 97, 97, 0.671)
+    ),
+    url("./images/sign-up-prompt-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.program h2 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.program p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.apply-btn {
+  color: #45a9f7;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-right: 50px;
+}
+.apply-btn::after {
+  border-right: 3px solid #fff;
+  width: 100%;
+  height: 110%;
+  content: "";
+  display: block;
+  position: relative;
+  top: -20px;
+  right: -56px;
+}
+.curriculum-btn {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+footer {
+  margin: 50px 100px; /* UNIVERSAL MARGIN FOR PAGE */
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  justify-items: center;
+  border-top: 2px solid lightgray;
+}
+.copy {
+  display: flex;
+  align-items: center;
+}
+.copy img {
+  width: 120px;
+  margin-right: 10px;
+}
+.copy p {
+  display: inline-block;
+  color: lightgray;
+}
+
+footer .nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li a {
+  color: #424a58;
+  text-decoration: none;
+  margin: 10px;
+}

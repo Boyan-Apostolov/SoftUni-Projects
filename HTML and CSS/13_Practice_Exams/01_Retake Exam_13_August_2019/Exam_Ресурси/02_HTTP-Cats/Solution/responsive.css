@@ -1,0 +1,34 @@
+@media all and (max-width: 768px) {
+  header h2 {
+    font-size: 50px;
+  }
+  .wrapper.style2 {
+    padding: 0;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+  .gallery > * {
+    width: 100%;
+  }
+
+  .spotlight {
+    flex-direction: column;
+  }
+  .spotlight > * {
+    width: 100%;
+  }
+  .inner h3 {
+    text-align: center;
+  }
+  .spotlight .inner {
+    padding: 2rem;
+    font-size: 25px;
+  }
+  .spotlight p:last-child {
+    text-align: center;
+  }
+  p {
+    color: grey;
+  }
+}
