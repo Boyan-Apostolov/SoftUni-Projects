@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+/* global padding: padding: 15px 150px; */
+
+html {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 290px;
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact {
+  margin-right: 80px;
+  position: relative;
+}
+.header-contact-top-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.header-contact-bottom-text {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.header-contact:nth-child(1):after,
+.header-contact:nth-child(2):after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  border-right: 1px solid lightgray;
+  right: -30px;
+  top: 1px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #ffb600;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+header nav {
+  display: flex;
+  background-color: #23282d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 290px;
+}
+header nav ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.active-tab {
+  color: #fdb600;
+}
+.fa-search {
+  color: #9a938a;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  background-image: url("./images/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  padding: 10px 290px;
+  margin-bottom: 0px;
+}
+
+.project h1 {
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.project p {
+  margin-top: 5px;
+}
+.project-example {
+  display: flex;
+  padding: 15px 290px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.img-holder {
+  margin-right: 30px;
+  flex-basis: 60%;
+}
+.img-holder img {
+  width: 100%;
+}
+.project-info {
+  flex-basis: 23%;
+}
+.project-name {
+  margin-top: 0px;
+  font-size: 30px;
+}
+.project-info p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contacts {
+  background: #030303;
+  padding: 20px 290px;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.footer-contacts article {
+  flex-basis: 30%;
+  margin-right: 100px;
+}
+.footer-contacts .services {
+  margin-right: 0px;
+}
+.footer-contacts h3 {
+  font-size: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.footer-contacts h3:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  border-left: 3px solid #ffb600;
+  left: 0px;
+}
+.footer-logo-holder {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer-contacts p {
+  color: #9a938a;
+  font-size: 17px;
+  line-height: 28px;
+}
+.social-media-buttons {
+  margin-top: 20px;
+}
+.social-media-buttons i {
+  color: #9a938a;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.timetable .row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+.row p {
+  margin: 3px;
+}
+.services p {
+  margin-bottom: 20px;
+}
+.services i {
+  margin-right: 5px;
+}
+.footer-copyright {
+  background-color: #ffb600;
+  padding: 15px 290px;
+  display: flex;
+  color: #2b220f;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.footer-nav ul {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.footer-nav ul li {
+  margin-right: 20px;
+}
+.footer-nav ul li a {
+  color: #2b220f;
+  text-decoration: none;
+}
